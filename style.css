@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "alk_life";
+    src: url(fonts/alk_life.otf);
+
+   
+}
+@font-face {
+    font-family: "DejaVu_Sans";
+    src: url(fonts/3d_unicode.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "alk_life" , Arial, Helvetica, sans-serif;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    height: 200px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header ul{
+    display: flex;
+    font-size: 24px;
+}
+header li a{
+    color: #717276;
+}
+
+nav ul li{
+    margin-right: 38px;
+}
+.active-link{
+    color: #A62B28;
+}
+
+.mainImg{
+    /* max-width: 1180px; */
+    margin: 160px 130px;
+}
+section{
+    /* width: 1300px; */
+    max-width: 1180px;
+    /* height: 856px; */
+    /* background-color: green; */
+    margin: 0 130px 160px 130px;
+
+}
+
+.section-first-box{
+    width: 455px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+.section-first-box h2{
+    color: #717276;
+    margin-left: 40px;
+    /* font-size: 32px; */
+}
+.section-second-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.section-second-box div{
+    width: 340px;
+    /* background-color: blue; */
+}
+.section-second-box h3{
+    font-family: "DejaVu_Sans" , Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+    color: #717276;
+    margin: 50px 0 8px 0 ;
+}
+.price{
+    display: block;
+    font-weight: 700;
+    margin-top: 8px;
+    /* background-color: red; */
+    font-family: "DejaVu_Sans" , Arial, Helvetica, sans-serif;
+
+}
+
+article{
+
+    margin: 160px 130px;
+
+}
+
+article ul {
+    width: 432px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.article-text{
+    color: #717276;
+    font-family: "DejaVu_Sans" , Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+} 
+
+.articleImg{
+    display: flex;
+}
+footer{
+    height: 248px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 71px 130px; */
+}
+
+footer li{
+    font-size: 24px;
+}
+
+.footbox{
+    padding: 71px 130px;
+}
+
+.middleFooter{
+    margin: 8px 0;
+}
+.social-icon-box a {
+    margin-right: 24px;
+}
